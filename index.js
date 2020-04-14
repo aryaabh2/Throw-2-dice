@@ -22,7 +22,7 @@ function setImage(player, num) {
     img = document.querySelector(".dice .img2");
   }
 
-  imgAddress = "images\\dice" + num + ".png";
+  imgAddress = "images/dice" + num + ".png";
   img.setAttribute("src", imgAddress);
 }
 
